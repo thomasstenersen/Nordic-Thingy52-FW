@@ -52,7 +52,7 @@
 #elif defined EMPL_TARGET_MSP430
 #include "msp430.h"
 #include "msp430_clock.h"
-#include "log.h"
+#include "mpl_log.h"
 #define delay_ms    msp430_delay_ms
 #define get_ms      msp430_get_clock_ms
 #define log_i       MPL_LOGI
@@ -64,7 +64,7 @@
  */
 #include "delay.h"
 #include "sysclk.h"
-#include "log.h"
+#include "mpl_log.h"
 #include "uc3l0_clock.h"
 /* delay_ms is a function already defined in ASF. */
 #define get_ms  uc3l0_get_clock_ms

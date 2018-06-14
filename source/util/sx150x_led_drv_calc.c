@@ -41,7 +41,6 @@
 #include <math.h>
 #include <stdint.h>
 #include <stdlib.h>
-#define  NRF_LOG_MODULE_NAME "sx150x_led_..."
 #include "nrf_log.h"
 #include "macros_common.h"
 

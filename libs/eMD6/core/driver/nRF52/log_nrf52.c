@@ -24,8 +24,8 @@
 #include <string.h>
 #include <stdarg.h>
 
-#include "packet.h"
-#include "log.h"
+#include "mpl_packet.h"
+#include "mpl_log.h"
 //#include "stm32f4xx.h"
 //#include "uart.h"
 #include "SEGGER_RTT.h"

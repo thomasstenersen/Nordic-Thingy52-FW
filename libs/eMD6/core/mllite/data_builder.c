@@ -27,7 +27,7 @@
 #include "message_layer.h"
 #include "results_holder.h"
 
-#include "log.h"
+#include "mpl_log.h"
 #undef MPL_LOG_TAG
 #define MPL_LOG_TAG "MPL"
 

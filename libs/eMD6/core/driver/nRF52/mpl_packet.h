@@ -18,8 +18,8 @@
  *      @brief  Defines needed for sending data/debug packets via USB.
  */
 
-#ifndef __PACKET_H__
-#define __PACKET_H__
+#ifndef __MPL_PACKET_H__
+#define __MPL_PACKET_H__
 
 #include "mltypes.h"
 
@@ -51,7 +51,7 @@ void eMPL_send_quat(long *quat);
  */
 void eMPL_send_data(unsigned char type, long *data);
 
-#endif /* __PACKET_H__ */
+#endif /* __MPL_PACKET_H__ */
 
 /**
  * @}

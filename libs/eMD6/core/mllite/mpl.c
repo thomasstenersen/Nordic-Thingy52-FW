@@ -15,7 +15,7 @@
  */
 
 #include "storage_manager.h"
-#include "log.h"
+#include "mpl_log.h"
 #include "mpl.h"
 #include "start_manager.h"
 #include "data_builder.h"

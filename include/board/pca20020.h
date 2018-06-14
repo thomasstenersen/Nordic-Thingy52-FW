@@ -576,6 +576,6 @@ static const uint8_t BATT_MEAS_VOLTAGE_TO_SOC[] = {
 #define NRF_CLOCK_LFCLKSRC      {.source        = NRF_CLOCK_LF_SRC_XTAL,            \
                                  .rc_ctiv       = 0,                                \
                                  .rc_temp_ctiv  = 0,                                \
-                                 .xtal_accuracy = NRF_CLOCK_LF_XTAL_ACCURACY_20_PPM}
+                                 .accuracy      = NRF_CLOCK_LF_ACCURACY_20_PPM}
 
 #endif /*PCA20020_H*/
